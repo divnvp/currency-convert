@@ -82,6 +82,7 @@ const reverseCurrency = () => {
           path="src/pictures/currency_exchange.png"
           title="Поменять местами"
           class="exchange__icon"
+          :style="isSumAllow ? 'cursor: pointer' : 'cursor: default '"
         />
       </button>
     </div>
@@ -138,8 +139,6 @@ const reverseCurrency = () => {
   &__icon {
     width: 2rem;
     height: 2rem;
-
-    cursor: pointer;
   }
 }
 </style>
