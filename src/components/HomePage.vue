@@ -79,7 +79,7 @@ const reverseCurrency = () => {
         class="exchange__button"
       >
         <IconField
-          path="src/assets/currency_exchange.png"
+          path="src/pictures/currency_exchange.png"
           title="Поменять местами"
           class="exchange__icon"
         />
